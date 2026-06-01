@@ -23,7 +23,7 @@ int main(void)
     
     for (p1 = A ,p2 = B + N -1; p1 < A + N; p1++, p2--)
     {
-        printf("%d ", *p1 + *p2);
+        printf(" %d", *p1 + *p2);
     }    
 
     printf("\n");
